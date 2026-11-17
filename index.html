@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sualnur Arı portfolyosu: mimari projeler, fotoğraflar ve çizim çalışmaları.">
+  <title>Sualnur Arı — Projeler, Fotoğraflar ve Çizimler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#ana-icerik" class="skip-link">Ana içeriğe atla</a>
+
+  <!-- Sabit Üst Menü ve Sağ Üst Üç Çizgili Menü Kutucuğu -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+    <div class="brand-group">
+  <!-- Profil fotoğrafına basınca büyüten buton -->
+  <button type="button" class="brand__avatar-btn" popovertarget="profil-lightbox" aria-label="Profil fotoğrafını büyüt">
+    <img
+      src="WhatsApp Image 2026-10-19 at 22.55.25.jpeg"
+      alt="Su Arı profil fotoğrafı"
+      width="160"
+      height="160"
+      class="brand__avatar"
+      fetchpriority="high"
+    >
+  </button>
+
+  <!-- İsme basınca ana sayfaya dönen bağlantı -->
+  <a href="#ana-sayfa" class="brand__title-link">
+    <span class="brand__name">Sualnur Arı</span>
+  </a>
+</div>
+
+<!-- Ekranda Büyüyen Profil Fotoğrafı Penceresi (Lightbox) -->
+<div id="profil-lightbox" class="lightbox-popover" popover>
+  <button type="button" class="lightbox-popover__close" popovertarget="profil-lightbox" popovertargetaction="hide" aria-label="Kapat">✕</button>
+  <img
+    src="WhatsApp Image 2026-10-19 at 22.55.25.jpeg"
+    alt="Su Arı büyük profil fotoğrafı"
+    class="lightbox-popover__img"
+  >
+</div>
+
+      <nav class="site-nav" aria-label="Ana menü">
+        <button
+          type="button"
+          class="menu-toggle"
+          popovertarget="ana-menu-panel"
+          aria-label="Menüyü aç veya kapat"
+        >
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <div id="ana-menu-panel" class="menu-popover" popover>
+          <ul class="menu-popover__list">
+            <li><a href="#projeler" class="site-nav__link">Projeler</a></li>
+            <li><a href="#fotograflar" class="site-nav__link">Fotoğraflar</a></li>
+            <li><a href="#cizimler" class="site-nav__link">Çizimler</a></li>
+            <li><a href="#hakkimda" class="site-nav__link">Hakkımda</a></li>
+            <li><a href="#iletisim" class="site-nav__link">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="ana-icerik">
+    <!-- ======================================================================
+         ANA SAYFA GÖRÜNÜMÜ
+         ====================================================================== -->
+    <div id="ana-sayfa-gorunumu">
+      <section id="ana-sayfa" class="page-intro container" aria-labelledby="ana-baslik">
+        <h1 id="ana-baslik" class="page-intro__title">Sualnur Arı</h1>
+        <p class="page-intro__subtitle">
+          Dünyama Hoş Geldiniz.
+        </p>
+      </section>
+
+      <!-- 1. BÖLÜM: PROJELER -->
+      <section id="projeler" class="section container" aria-labelledby="projeler-baslik">
+        <h2 id="projeler-baslik" class="section__title">Projeler</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__media">
+              <img src="oh1.jpeg" alt="İstanbul Taş Cephe Arşivi kapak görseli" width="1200" height="900" class="card__img">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#proje-1" class="card__link">Geometrik Harmoni</a>
+              </h3>
+              <p class="card__keywords"><em>Şeffaflık, Topografya ve Doğa, İç-Dış İlişkisi</em></p>
+              <p class="card__excerpt">Eğimli arazi kotlarına oturan şeffaf strüktür ile doğal peyzaj öğelerini tek bir kabuk altında buluşturan tasarım.</p>
+              <span class="card__cta" aria-hidden="true">Projeyi İncele →</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">
+              <img src="ok1.jpeg" alt="İnteraktif Sergi Rehberi tasarım taslağı" width="1200" height="900" class="card__img">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#proje-2" class="card__link">Organik Kafes</a>
+              </h3>
+              <p class="card__keywords"><em>Biyomimikri, Akışkan Strüktür, Işık ve Gölge</em></p>
+              <p class="card__excerpt">Doğadaki hücresel ağ dokularından ilham alan, çok katmanlı dolaşım ve seyir terası sunan deneysel kabuk strüktür.</p>
+              <span class="card__cta" aria-hidden="true">Projeyi İncele →</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">
+              <img src="ç1.jpeg" alt="Endüstri Mirası Dönüşümü kapak görseli" width="1200" height="900" class="card__img">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#proje-3" class="card__link">Çizgide Karşılaşma</a>
+              </h3>
+              <p class="card__keywords"><em>Ritim ve Kontrast, Düzlemsel Kesişim, Mekânsal Geçiş</em></p>
+              <p class="card__excerpt">Siyah ve beyaz düşey düzlemlerin eğimli üst örtülerle kurduğu ritmik akış ve zıtlık üzerine kurgulanan mekân etüdü.</p>
+              <span class="card__cta" aria-hidden="true">Projeyi İncele →</span>
+            </div>
+          </article>
+
+           <article class="card">
+            <div class="card__media">
+              <img src="Ekran görüntüsü 2026-11-17 111110.png" alt="Endüstri Mirası Dönüşümü kapak görseli" width="1200" height="900" class="card__img">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#proje-4" class="card__link">Gençlik Merkezi</a>
+              </h3>
+              <p class="card__keywords"><em>Topografik Uyum, Kamusal Buluşma, Kademeli Kabuk, Şeffaf Cephe</em></p>
+              <p class="card__excerpt">Kahramanmaraş’ın eğimli topografyasına kademeli olarak yerleşen; akışkan çatı kabukları, şeffaf cepheleri ve yarı açık saçak altı alanlarıyla gençler için çok yönlü bir sosyalleşme ve üretim odağı sunan gençlik merkezi tasarımı.</p>
+              <span class="card__cta" aria-hidden="true">Projeyi İncele →</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- 2. BÖLÜM: FOTOĞRAFLAR -->
+      <section id="fotograflar" class="section container" aria-labelledby="fotograflar-baslik">
+        <h2 id="fotograflar-baslik" class="section__title">Fotoğraflar</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__media">
+              <img src="4.jpeg" alt="Kırım Kilisesi taş cephe detayları" width="1200" height="900" class="card__img" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#fotograf-1" class="card__link">Kırım Kilisesi</a>
+              </h3>
+              <p class="card__keywords"><em>Taş Cephe, Beyoğlu</em></p>
+              <p class="card__excerpt">Ağaçların arasında saklı bir hikâye, sessizliğin içinde kendine ait bir dünya.</p>
+              <span class="card__cta" aria-hidden="true">Fotoğrafları Gör →</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">
+              <img src="2.jpeg" alt="Saint Antuan Kilisesi kırmızı tuğlalı dış cephesi" width="1200" height="900" class="card__img" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#fotograf-2" class="card__link">Saint Antuan Kilisesi</a>
+              </h3>
+              <p class="card__keywords"><em>Şehir ve Işık, İstiklal</em></p>
+              <p class="card__excerpt">Kalabalık bir şehrin ortasında insanı başka bir zamana götüren kırmızı tuğlalar.</p>
+              <span class="card__cta" aria-hidden="true">Fotoğrafları Gör →</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">
+              <img src="3.jpeg" alt="Aya Triada Kilisesi kubbe ve cephe süslemeleri" width="1200" height="900" class="card__img" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#fotograf-3" class="card__link">Aya Triada Kilisesi</a>
+              </h3>
+              <p class="card__keywords"><em>Göğe yükselme, Taksim</em></p>
+              <p class="card__excerpt">Şehrin gürültüsünden uzakta, kubbelerin ve ince detayların arasında saklanan zarafet.</p>
+              <span class="card__cta" aria-hidden="true">Fotoğrafları Gör →</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3. BÖLÜM: ÇİZİMLER -->
+      <section id="cizimler" class="section container" aria-labelledby="cizimler-baslik">
+        <h2 id="cizimler-baslik" class="section__title">Çizimler</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__media">
+              <img src="cizim1.jpg" alt="Karakalem kentsel eskiz çalışması" width="1200" height="900" class="card__img" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#cizim-1" class="card__link">1.</a>
+              </h3>
+              <p class="card__keywords"><em>1</em></p>
+              <p class="card__excerpt">açıklama.</p>
+              <span class="card__cta" aria-hidden="true">Çizimleri Gör →</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">
+              <img src="cizim2.jpg" alt="Çini mürekkebi gölge ve kemer etüdü" width="1200" height="900" class="card__img" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#cizim-2" class="card__link">2</a>
+              </h3>
+              <p class="card__keywords"><em>2</em></p>
+              <p class="card__excerpt">açıklama.</p>
+              <span class="card__cta" aria-hidden="true">Çizimleri Gör →</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media">
+              <img src="cizim3.jpg" alt="Karma teknik avlu perspektifi çizimi" width="1200" height="900" class="card__img" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">
+                <a href="#cizim-3" class="card__link">3</a>
+              </h3>
+              <p class="card__keywords"><em>3</em></p>
+              <p class="card__excerpt">açıklama.</p>
+              <span class="card__cta" aria-hidden="true">Çizimleri Gör →</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- HAKKIMDA -->
+      <section id="hakkimda" class="section container" aria-labelledby="hakkimda-baslik">
+        <div class="info-box">
+          <h2 id="hakkimda-baslik" class="section__title">Hakkımda</h2>
+          <p>
+          Merhaba! Ben Sualnur; mimari tasarım, fotoğraf ve çizim aracılığıyla çevremdeki mekânları ve küçük detayları keşfetmeyi seviyorum. Kimi zaman tarihi bir yapının taş dokusu, kimi zaman bir sokağın ışığı ya da kağıt üzerinde şekillenen bir form bana ilham verebiliyor. Bu portfolyoyu; mimari projelerimi, kadrajıma takılan anları ve eskiz defterimden çıkan çizgileri bir araya getirip dünyaya kendi penceremden bakışımı paylaşmak için oluşturdum. Hoş geldiniz!
+          </p>
+        </div>
+      </section>
+
+      <!-- İLETİŞİM -->
+      <section id="iletisim" class="section container" aria-labelledby="iletisim-baslik">
+        <div class="info-box">
+          <h2 id="iletisim-baslik" class="section__title">İletişim</h2>
+          <p>Proje, çizim veya iş birlikleri hakkında iletişime geçmek için bana ulaşabilirsiniz:</p>
+          <ul class="contact-list">
+            <li><strong>E-posta:</strong> <a href="mailto:arisuay0829@gmail.com" class="inline-link">arisuay0829@gmail.com</a></li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="inline-link">_su_ari</a></li>
+            <li><strong>Konum:</strong> İstanbul, Türkiye</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         9 YAN SAYFA (3 PROJE + 3 FOTOĞRAF + 3 ÇİZİM)
+         ====================================================================== -->
+
+    <!-- YAN SAYFA 1: PROJE 1 -->
+    <section id="proje-1" class="subpage-view detail-page container">
+      <a href="#projeler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Proje</span>
+        <h1 class="detail-header__title">Geometrik Harmoni</h1>
+        <p class="card__keywords"><em>Şeffaflık, Topografya ve Doğa, İç-Dış İlişkisi</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="oh2.jpeg" alt="İstanbul Taş Cephe Arşivi genel görünüm" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="oh1.jpeg" alt="Taş kemer dokusu detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="oh4.jpeg" alt="Arşiv kataloğu yerleşim paftası" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Proje Açıklaması</h2>
+        <p>Katmanlı topoğrafya üzerine yerleşen beyaz taşıyıcı çerçeveler ve şeffaf yüzeyler, dış ortamla görsel sürekliliği kesmeden korunaklı bir iç mekân tanımlar. Yapının içerisinden yükselen yeşil dokular, mimari sınırları yumuşatarak doğa ile yapılı çevre arasında geçirgen bir denge kurar..</p>
+    
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 2: PROJE 2 -->
+    <section id="proje-2" class="subpage-view detail-page container">
+      <a href="#projeler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Proje</span>
+        <h1 class="detail-header__title">Organik Kafes</h1>
+        <p class="card__keywords"><em>Biyomimikri, Akışkan Strüktür, Işık ve Gölge</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="ok1.jpeg" alt="Sergi salonu yerleşim planı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="ok2.jpeg" alt="Eser bilgi kartı arayüzü" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="ok3.jpeg" alt="Sergi aydınlatma ve tipografi etüdü" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Proje Açıklaması</h2>
+        <p>Geleneksel dik açılı taşıyıcı sistemlerin dışına çıkarak örgüsel ve geçirgen bir kabuk formu araştıran bu projede, basamaklarla ulaşılan üst platform farklı kotlarda karşılaşma alanları oluşturur. Yarı saydam yüzeylerden süzülen ışık, arka planda dramatik gölge ağları üreterek mekânın atmosferini sürekli dönüştürür.</p>
+        
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 3: PROJE 3 -->
+    <section id="proje-3" class="subpage-view detail-page container">
+      <a href="#projeler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Proje</span>
+        <h1 class="detail-header__title">Çizgide Karşılaşma</h1>
+        <p class="card__keywords"><em>Ritim ve Kontrast, Düzlemsel Kesişim, Mekânsal Geçiş</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="ç2.jpeg" alt="Endüstri yapısı dış cephe görünümü" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="ç3.jpeg" alt="İç mekân çelik çatı makası detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="ç4.jpeg" alt="Atölye ve sergi alanı kesit çizimi" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Proje Açıklaması</h2>
+        <p>Farklı yükseklik ve eğimlerdeki düzlemlerin bir araya gelerek oluşturduğu yarı açık mekân dizisidir. Siyah ve beyaz yüzeyler arasındaki keskin renk kontrastı, yönelimleri ve duraklama noktalarını tanımlarken; doğrusal hatların kesişimi mekân içinde dinamik bir hareket ve görüş derinliği yaratır.</p>
+        
+      </article>
+    </section>
+
+    <!-- YAN SAYFA: PROJE 4 -->
+<section id="proje-4" class="subpage-view detail-page container">
+  <a href="#projeler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+  <header class="detail-header">
+    <span class="detail-badge">Proje</span>
+    <h1 class="detail-header__title">Gençlik Merkezi</h1>
+    <p class="card__keywords"><em>Topografik Uyum, Kamusal Buluşma, Kademeli Kabuk, Şeffaf Cephe</em></p>
+  </header>
+  <div class="carousel-wrapper">
+    <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+    <div class="horizontal-gallery" tabindex="0">
+      <figure class="horizontal-gallery__item">
+        <img src="plan.png" alt="Açıklama 1" class="horizontal-gallery__img">
+        <figcaption class="horizontal-gallery__caption">1.</figcaption>
+      </figure>
+      <figure class="horizontal-gallery__item">
+        <img src="kesit.png" alt="Açıklama 2" class="horizontal-gallery__img">
+        <figcaption class="horizontal-gallery__caption">2.</figcaption>
+      </figure>
+      <figure class="horizontal-gallery__item">
+        <img src="görünüş.png" alt="Açıklama 3" class="horizontal-gallery__img">
+        <figcaption class="horizontal-gallery__caption">3.</figcaption>
+      </figure>
+    </div>
+  </div>
+  <article class="detail-prose">
+    <h2>Proje Açıklaması</h2>
+    <p>Kahramanmaraş için kurgulanan bu Gençlik Merkezi projesi, yapıyı araziye dayatmak yerine mevcut eğimli topografyanın basamaklı dokusunu mimari bir tasarım girdisine dönüştürür. Arazi kotlarıyla birlikte yükselen ve yön değiştiren kütle kurgusu, kentin genç nüfusu için davetkâr, erişilebilir ve dinamik bir kamusal buluşma noktası oluşturmayı hedefler.</p>
+  </article>
+</section>
+
+    <!-- YAN SAYFA 4: FOTOĞRAF 1 -->
+    <section id="fotograf-1" class="subpage-view detail-page container">
+      <a href="#fotograflar" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Fotoğraf</span>
+        <h1 class="detail-header__title">Kırım Kilisesi</h1>
+        <p class="card__keywords"><em>Mimari Fotoğraf, Beyoğlu, Işık ve Taş</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="4.jpeg" alt="Kırım Kilisesi genel cephe görünümü" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="k1.jpeg" alt="Kırım Kilisesi avlu girişi detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="4.jpeg" alt="Kırım Kilisesi pencere oranları" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Fotoğraf Serisi Açıklaması</h2>
+        <p>Taşların arasında saklı bir hikâye, sessizliğin içinde kendine ait bir dünya. Beyoğlu'nun arka sokaklarında karşınıza çıkan bu yapı, her köşesinde geçmişten kalan dingin bir iz taşıyor.</p>
+        <p>Öğleden sonra güneşinin taş yüzeylerde oluşturduğu keskin gölgeler ve yapıya özgü dikey oranlar bu fotoğraf serisinin ana odağını oluşturuyor.</p>
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 5: FOTOĞRAF 2 -->
+    <section id="fotograf-2" class="subpage-view detail-page container">
+      <a href="#fotograflar" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Fotoğraf</span>
+        <h1 class="detail-header__title">Saint Antuan Kilisesi</h1>
+        <p class="card__keywords"><em>Şehir ve Işık, İstiklal Caddesi, Tuğla Doku</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="2.jpeg" alt="Saint Antuan Kilisesi kırmızı tuğla cephesi" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="saint.jpeg" alt="Saint Antuan Kilisesi giriş kemerleri" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="saint1.jpeg" alt="Saint Antuan Kilisesi gül pencere detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Fotoğraf Serisi Açıklaması</h2>
+        <p>Kalabalık bir şehrin ortasında, insanı bir anlığına başka bir zamana götüren kırmızı tuğlalar ve göğe uzanan kemerler.</p>
+        <p>İstiklal Caddesi'nin yoğun temposundan bir adım içeri girildiğinde değişen akustik ve sıcak tuğla tonlarının gün ışığıyla kurduğu ilişki belgelendi.</p>
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 6: FOTOĞRAF 3 -->
+    <section id="fotograf-3" class="subpage-view detail-page container">
+      <a href="#fotograflar" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Fotoğraf</span>
+        <h1 class="detail-header__title">Aya Triada Kilisesi</h1>
+        <p class="card__keywords"><em>Kubbe Detayları, Taksim, Perspektif</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="3.jpeg" alt="Aya Triada Kilisesi kubbe ve çan kuleleri" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="o1.jpeg" alt="Aya Triada Kilisesi cephe kabartmaları" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="3.jpeg" alt="Aya Triada Kilisesi avlu perspektifi" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Fotoğraf Serisi Açıklaması</h2>
+        <p>Şehrin gürültüsünden uzakta, kubbelerin ve ince detayların arasında saklanan zarif bir güzellik. Bazen sadece durup yukarı bakmak yeterli.</p>
+        <p>Yapının anıtsal kubbe formu ile çevresindeki dar sokak dokusu arasındaki ölçek farkı farklı açılardan kadraja alındı.</p>
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 7: ÇİZİM 1 -->
+    <section id="cizim-1" class="subpage-view detail-page container">
+      <a href="#cizimler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Çizim</span>
+        <h1 class="detail-header__title">1</h1>
+        <p class="card__keywords"><em>1</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="cizim1.jpg" alt="Karakalem sokak perspektifi eskizi" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="cizim1.jpg" alt="Cumba ve pencere detay eskizi" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="cizim1.jpg" alt="Eskiz defteri sayfa düzeni" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Çizim Açıklaması</h2>
+        <p>açıklama.</p>
+       
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 8: ÇİZİM 2 -->
+    <section id="cizim-2" class="subpage-view detail-page container">
+      <a href="#cizimler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Çizim</span>
+        <h1 class="detail-header__title">2</h1>
+        <p class="card__keywords"><em>2</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="cizim2.jpg" alt="Çini mürekkebi kemer çizimi" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="cizim2.jpg" alt="Tarama çizgileri yakın plan detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="cizim2.jpg" alt="Işık gölge etüdü tamamlanmış hali" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Çizim Açıklaması</h2>
+        <p>açıklama.</p>
+        
+      </article>
+    </section>
+
+    <!-- YAN SAYFA 9: ÇİZİM 3 -->
+    <section id="cizim-3" class="subpage-view detail-page container">
+      <a href="#cizimler" class="back-link"><span aria-hidden="true">←</span> Ana Sayfaya Dön</a>
+      <header class="detail-header">
+        <span class="detail-badge">Çizim</span>
+        <h1 class="detail-header__title">3</h1>
+        <p class="card__keywords"><em>3</em></p>
+      </header>
+      <div class="carousel-wrapper">
+        <span class="carousel-hint">← Görselleri yan yana kaydırabilirsiniz →</span>
+        <div class="horizontal-gallery" tabindex="0">
+          <figure class="horizontal-gallery__item">
+            <img src="cizim3.jpg" alt="Avlu perspektifi ana çizim" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">1.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="cizim3.jpg" alt="Suluboya leke çalışması detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">2.</figcaption>
+          </figure>
+          <figure class="horizontal-gallery__item">
+            <img src="cizim3.jpg" alt="Çizgi ve renk birleşimi detayı" class="horizontal-gallery__img">
+            <figcaption class="horizontal-gallery__caption">3.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <article class="detail-prose">
+        <h2>Çizim Açıklaması</h2>
+        <p>açıklama.</p>
+        </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Sualnur Arı — Projeler, Fotoğraf ve Çizim Portfolyosu</p>
+    </div>
+  </footer>
+</body>
+</html>
